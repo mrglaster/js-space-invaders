@@ -10,11 +10,19 @@ body{
 }
 
 .invader {
-    background-color: brown;
-    border-radius: 50%;
+
+    background-image: url(invader.png);
+    background-size: cover;
 }
 
 .shooter{
     background-color: chartreuse;
     border-radius: 0%;
+}
+
+.bullet{
+   /* background-color: yellow;*/
+   background-image: url(bullet.png); 
+   background-size: cover;
+    /*background-image: url('../images/bullet.png');*/
 }
